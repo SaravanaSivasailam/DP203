@@ -1,0 +1,20 @@
+{
+	"name": "datalake_Paraquetfilecreation",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DP203DataLakeStorageGen2",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "logfile",
+				"fileSystem": "data"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	}
+}
