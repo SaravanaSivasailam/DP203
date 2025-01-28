@@ -1,0 +1,9 @@
+{
+	"name": "dp203dtfactory",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "471a1d93-b36d-46f2-b404-bd44a7e1be43",
+		"tenantId": "3c9b697b-4028-4875-a750-31888f4fcd5e"
+	}
+}
